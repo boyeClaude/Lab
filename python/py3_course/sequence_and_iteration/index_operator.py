@@ -7,3 +7,4 @@ print(10 // 2)
 
 ratio = int(9 ** (1/2))
 print(ratio)
+print(2+2/((2+2)+(2**2)))
