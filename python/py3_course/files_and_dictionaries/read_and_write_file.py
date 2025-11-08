@@ -13,3 +13,15 @@
 '''
 
 
+fileref = open("files/info.txt", "r")
+#contents = fileref.read()
+#print("content of the file : ", contents[:20]) 
+
+
+#read text file line by line
+lines = fileref.readlines()
+print(lines[:5])
+print(len(lines))
+# for line in lines:
+#     print("line: ",line)
+# fileref.close()
